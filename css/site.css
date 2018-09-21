@@ -1,0 +1,107 @@
+﻿body {
+    padding-bottom: 20px;
+    font-size: 12px !important;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+.input-search {
+    width:80%;
+}
+
+.flat-control {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+a {
+    font-size: 14px !important;
+}
+
+.dropdown-menu {
+    font-size: 14px !important;
+}
+
+.btn {
+    font-size: 14px !important;
+}
+
+.form-control {
+    font-size: 14px !important;
+}
+
+.HideLoader {
+    display: none;
+}
+
+.ShowLoader {
+    display: normal;
+}
+
+.img-centered {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    margin-left: -75px;
+}
+
+.w-special {
+    width:19.8% !important;
+}
+
+.footer-special {
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid #e5e5e5;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.helpbtn {
+    border-radius: 20px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.nodecor {
+    text-decoration: none !important;
+}
+
+.logoheader {
+    position: relative;
+    left: 50%;
+    margin-left: -70px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+    }
+}
