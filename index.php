@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="image/favicon.png" type="image/png">
+        <link rel="icon" href="images/kuvaa_icon.png" type="image/png">
         <title>Kuvaago - Expédiez vos colis en toute sécurité</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -45,13 +45,13 @@
 
 						<!-- New account button -->
 						<a href="#" class="btn btn-info border-dark d-none mr-1 d-sm-inline-block flat-control">
-							<i class="fa fa-user"></i>&nbsp;Créer un compte
+							<i class="lnr lnr-user"></i>&nbsp;Créer un compte
 						</a>
 
 						<!-- Login button -->
 						<div class="dropdown">
 							<a class="btn btn-success flat-control dropdown-toggle d-none d-sm-inline-block" href="#" id="btnDropdownDemo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<i class="fa fa-sign-in"></i>&nbsp;Se connecter
+								<i class="lnr lnr-enter"></i>&nbsp;Se connecter
 							</a>
 
 							<!-- Signin dropdown form -->
@@ -60,7 +60,7 @@
 								  <input type="email" class="form-control border-right-0 border" id="emailDropdown" placeholder="Email" />
 								  <span class="input-group-append">
 								      <a class="btn btn-light border-left-0 border" href="#">
-								          <i class="fa fa-envelope"></i>
+								          <i class="lnr lnr-envelope"></i>
 								      </a>
 								  </span>
 								</div>
@@ -69,7 +69,7 @@
 								  <input type="password" class="form-control border-right-0 border" id="passwordDropdown" placeholder="Mot de passe" />
 								  <span class="input-group-append">
 								      <a class="btn btn-light border-left-0 border" href="#">
-								          <i class="fa fa-lock"></i>
+								          <i class="lnr lnr-lock"></i>
 								      </a>
 								  </span>
 								</div>
@@ -83,7 +83,7 @@
 
 								<div class="form-group mt-2 justify-content-between">
 									<button type="submit" class="btn btn-success flat-control">
-										<i class="fa fa-sign-in"></i> Connexion
+										<i class="lnr lnr-enter"></i> Connexion
 									</button>
 									<a href="#" class="btn-link mb-2" style="text-decoration:none;">Mot de passe oublié ?</a>
 								</div>
@@ -94,7 +94,7 @@
 								</div>
 
 								<div class="form-group mt-5 justify-content-center">
-									<a href="#" class="btn btn-info flat-control">Facebook &nbsp;<span class="fui-facebook"></span> </a>
+									<a href="#" class="btn btn-info flat-control"><span class="fa fa-facebook-square"></span> Facebook &nbsp;</a>
 								</div>
 							</form>
 						</div>
@@ -111,16 +111,15 @@
                 <!-- Collapse small media buttons -->
 				<div class="collapse mt-2 text-center" id="navbarContent">
 					<a href="#" class="btn btn-light border-dark mr-1 d-sm-none flat-control">
-						<i class="fa fa-user"></i>&nbsp;Créer un compte
+						<i class="lnr lnr-user"></i>&nbsp;Créer un compte
 					</a>
 
 					<a href="#" class="btn btn-success d-sm-none flat-control">
-						<i class="fa fa-sign-in"></i>&nbsp;Se connecter
+						<i class="lnr lnr-enter"></i>&nbsp;Se connecter
 					</a>
 				</div>
             </nav>
         </header>
-
         <!--================Header Area =================-->
         
         <!--================banner Area =================-->
@@ -147,36 +146,42 @@
             <div class="container">
                 <div class="section_title text-center">
                     <h2>Comment ça marche ?</h2>
-                    <p>Découvrez le mode de fonctionnement de Kuvaago qui vous permet d'expédier vos colis dans le monde entier à moindre coût</p>
+                    
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                     	<div class="card bg-info text-light">
-							<div class="card-body">
+							<div class="card-body" style="font-size:1.1em;">
 								<h5 class="card-title">
-									<span class="badge badge-pill badge-primary" style="font-size:1.2em;">1</span> Sélectionner une région
+									<span class="badge badge-pill badge-primary" style="font-size:1.3em;">1</span> Publiez votre annonce
 								</h5>
-								This is some text within a card body.
+								<img src="images/icon-publish.png" class="img-responsive img-thumbnail"> <br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum sapien ut risus pulvinar, 
+								quis porta lectus porta. Praesent non tristique leo. Pellentesque eu ipsum neque.
 							</div>
 						</div>
                     </div>
                     <div class="col-md-4">
                     	<div class="card bg-info text-light">
-							<div class="card-body">
+							<div class="card-body" style="font-size:1.1em;">
 								<h5 class="card-title">
-									<span class="badge badge-pill badge-primary" style="font-size:1.2em;">2</span> Sélectionner une région
+									<span class="badge badge-pill badge-primary" style="font-size:1.3em;">2</span> Recevez des propositions
 								</h5>
-								This is some text within a card body.
+								<img src="images/receive.png" class="img-responsive img-thumbnail"> <br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum sapien ut risus pulvinar, 
+								quis porta lectus porta. Praesent non tristique leo. Pellentesque eu ipsum neque.
 							</div>
 						</div>
                     </div>
                     <div class="col-md-4">
                     	<div class="card bg-info text-light">
-							<div class="card-body">
+							<div class="card-body" style="font-size:1.1em;">
 								<h5 class="card-title">
-									<span class="badge badge-pill badge-primary" style="font-size:1.2em;">3</span> Sélectionner une région
+									<span class="badge badge-pill badge-primary" style="font-size:1.3em;">3</span> Validez les propositions
 								</h5>
-								This is some text within a card body.
+								<img src="images/validate.png" class="img-responsive img-thumbnail"> <br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum sapien ut risus pulvinar, 
+								quis porta lectus porta. Praesent non tristique leo. Pellentesque eu ipsum neque.
 							</div>
 						</div>
                     </div>
@@ -185,166 +190,133 @@
         </section>
         <!--================About Area =================-->
 
-        <!--================Event Date Area =================-->
-        <section class="event_date_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 d_flex">
-                        <div class="evet_location flex">
-                            <h3>Spreading the faith to all</h3>
-                            <p><span class="lnr lnr-calendar-full"></span>5th may, 2018</p>
-                            <p><span class="lnr lnr-clock"></span>Saturday, 09.00 am to 05.00 pm</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 event_time">
-                        <h4>Our Next Event Starts in</h4>
-                        <div id="timer" class="timer">
-                            <div class="timer__section days">
-                                <div class="timer__number"></div>
-                                <div class="timer__label">days</div>
-                            </div>
-                            <div class="timer__section hours">
-                                <div class="timer__number"></div>
-                                <div class="timer__label">hours</div>
-                            </div>
-                            <div class="timer__section minutes">
-                                <div class="timer__number"></div>
-                                <div class="timer__label">Minutes</div>
-                            </div>
-                            <div class="timer__section seconds">
-                                <div class="timer__number"></div>
-                                <div class="timer__label">seconds</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================Event Date Area =================-->
-        
         <!--================Features Area =================-->
         <section class="features_area">
+        	<div class="section_title text-center">
+                <h2>Pourquoi utiliser Kuvaago ? </h2>
+                
+            </div>
+
             <div class="row m0">
                 <div class="col-md-3 features_item">
-                    <h3>Spreading Light to world</h3>
-                    <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence and upturning of the natural.</p>
-                    <a href="#" class="btn_hover view_btn">View Details</a>
+                    <h3>Economique</h3>
+                     <p>Les tarifs des voyageurs sont beaucoup moins cher que ceux des agences habituelles.</p>
                 </div>
                 <div class="col-md-3 features_item">
-                    <h3>Spreading Light to world</h3>
-                    <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence and upturning of the natural.</p>
-                    <a href="#" class="btn_hover view_btn">View Details</a>
+                    <h3>Social</h3>
+                    <p>Viens en aide à ceux qui n'ont pas les moyens d'expédier leurs colis par les services postaux classiques.</p>
                 </div>
                 <div class="col-md-3 features_item">
-                    <h3>Spreading Light to world</h3>
-                    <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence and upturning of the natural.</p>
-                    <a href="#" class="btn_hover view_btn">View Details</a>
+                    <h3>Pratique</h3>
+                    <p>Négocie les termes de l'envoi et expédie tes colis dans les délais les plus courts possible.</p>
                 </div>
                 <div class="col-md-3 features_item">
-                    <h3>Spreading Light to world</h3>
-                    <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence and upturning of the natural.</p>
-                    <a href="#" class="btn_hover view_btn">View Details</a>
+                    <h3>Convivial</h3>
+                    <p>Rencontre de nouvelles personnes très aimables et de fait toi beaucoup d'amis sympathiques.</p>
                 </div>
             </div>
         </section>
         <!--================Features Area =================-->
         
         <!--================Sermons work Area =================-->
-        <section class="sermons_work_area section_gap">
+        <section class="sermons_work_area section_gap ">
             <div class="container">
                 <div class="section_title text-center">
-                    <h2>Sermons This Week</h2>
-                    <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from</p>
+                    <h2>Quelques témoignages</h2>
+                    
                 </div>
                 <div class="sermons_slider owl-carousel">
+                    
                     <div class="item row">
-                        <div class="col-lg-8">
+                        <div class="col-lg-4">
                             <div class="sermons_image">
-                                <img src="image/sermns.jpg" alt="">
-                                <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
+                                <img src="image/photo/joshua-krama.jpg" alt="photo">
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-8">
                             <div class="sermons_content">
-                                <h3 class="title_color">Did not find your Package? Feel free to ask us. We‘ll make it for you</h3>
+                                <h3 class="title_color">Les raisons pour lesquelles j'utilise la plateforme Kuvaago</h3>
                                 <ul class="list_style sermons_category">
-                                    <li><i class="lnr lnr-user"></i><span>Categories: </span><a href="#"> Travor James</a></li>
-                                    <li><i class="lnr lnr-database"></i><span>Sermon Speaker: </span> Prayer</li>
-                                    <li><i class="lnr lnr-calendar-full"></i><span>Date:</span> 5th may, 2018</li>
+                                    <li><i class="lnr lnr-user"></i><span>Nom : </span><a href="#" class=""> Joshua Krama</a></li>
+                                    <li><i class="lnr lnr-database"></i><span>Type : </span> Utilisateur</li>
+                                    <li><i class="lnr lnr-calendar-full"></i><span>Date : </span> 22 juillet 2018</li>
                                 </ul>
-                                <a href="#" class="btn_hover">View More Details</a>
+                                <p style="font-size:1.2em;">
+                                	Etre utilisateur Kuvaago m'aide vraiment beaucoup, je peux plus facilement envoyer des colis à ma famille à Bamako 
+                                	car les prix des voyageurs sont très bas. De plus, je gagne en temps car c'est plus facile pour moi de m'entendre 
+                                	avec des voyageurs sympas que de gérer ça avec les agences qui sont souvent très lentes dans les procédures. Merci Kuvaago !
+                                </p>
+                                <a href="#" class="btn btn-success btn-lg flat-control">CREER UN COMPTE UTILISATEUR</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="item row">
-                        <div class="col-lg-8">
+                        <div class="col-lg-4">
                             <div class="sermons_image">
-                                <img src="image/sermns.jpg" alt="">
-                                <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
+                                <img src="image/photo/cyrille-penaye.jpg" alt="photo">
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-8">
                             <div class="sermons_content">
-                                <h3 class="title_color">Did not find your Package? Feel free to ask us. We‘ll make it for you</h3>
+                                <h3 class="title_color">Mon expérience de transporteur de colis avec Kuvaago</h3>
                                 <ul class="list_style sermons_category">
-                                    <li><i class="lnr lnr-user"></i><span>Categories: </span><a href="#"> Travor James</a></li>
-                                    <li><i class="lnr lnr-database"></i><span>Sermon Speaker: </span> Prayer</li>
-                                    <li><i class="lnr lnr-calendar-full"></i><span>Date:</span> 5th may, 2018</li>
+                                    <li><i class="lnr lnr-user"></i><span>Nom : </span><a href="#" class=""> Cyrille Penaye</a></li>
+                                    <li><i class="lnr lnr-database"></i><span>Type : </span> Transporteur particulier</li>
+                                    <li><i class="lnr lnr-calendar-full"></i><span>Date : </span> 12 juin 2018</li>
                                 </ul>
-                                <a href="#" class="btn_hover">View More Details</a>
+                                <p style="font-size:1.2em;">
+                                	Depuis que je suis transporteur avec Kuvaago, j'arrive à remplir mes valises plus facilement lors de mes voyages, 
+                                	je rencontre des personnes géniales qui paient très bien. Ca m'aide vraiment à payer mes factures chaque mois et 
+                                	j'ai également davantage de plaisir à voyager plus souvent et je peux passer plus de temps avec ma famille à Paris. 
+                                </p>
+                                <a href="#" class="btn btn-success btn-lg flat-control">DEVENIR TRANSPORTEUR PARTICULIER</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="item row">
-                        <div class="col-lg-8">
-                            <div class="sermons_image">
-                                <img src="image/sermns.jpg" alt="">
-                                <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
-                            </div>
-                        </div>
                         <div class="col-lg-4">
-                            <div class="sermons_content">
-                                <h3 class="title_color">Did not find your Package? Feel free to ask us. We‘ll make it for you</h3>
-                                <ul class="list_style sermons_category">
-                                    <li><i class="lnr lnr-user"></i><span>Categories: </span><a href="#"> Travor James</a></li>
-                                    <li><i class="lnr lnr-database"></i><span>Sermon Speaker: </span> Prayer</li>
-                                    <li><i class="lnr lnr-calendar-full"></i><span>Date:</span> 5th may, 2018</li>
-                                </ul>
-                                <a href="#" class="btn_hover btn_hover_two">View More Details</a>
+                            <div class="sermons_image">
+                                <img src="image/photo/terricks-noah.jpg" alt="photo">
                             </div>
                         </div>
-                    </div>
+                        <div class="col-lg-8">
+                            <div class="sermons_content">
+                                <h3 class="title_color">Les raisons pour lesquelles j'utilise la plateforme Kuvaago</h3>
+                                <ul class="list_style sermons_category">
+                                    <li><i class="lnr lnr-user"></i><span>Nom : </span><a href="#" class=""> Terricks Noah</a></li>
+                                    <li><i class="lnr lnr-database"></i><span>Type : </span> Transporteur professionnel</li>
+                                    <li><i class="lnr lnr-calendar-full"></i><span>Date : </span> 04 juillet 2018</li>
+                                </ul>
+                                <p style="font-size:1.2em;">
+                                	Je suis agent commercial à UnusedKilos, entreprise spécialisée dans le transport de colis. Avant, j'avais souvent beaucoup 
+                                	de mal à réunir suffisament de commandes et il m'arrivait d'avoir beaucoup d'espace libre et de devoir faire attendre 
+                                	mes clients plus d'une semaine pour le transport de leurs colis. Désormais, grâce à la plateforme Kuvaago, tous ces problèmes
+                                	font partie du passé.
+                                </p>
+                                <a href="#" class="btn btn-success btn-lg flat-control">DEVENIR TRANSPORTEUR PROFESSIONNEL</a>
+                            </div>
+                        </div>
+                    </div>                    
+
                 </div>
             </div>
         </section>
         <!--================Sermons work Area=================-->
+        
         <!--================Donate Area=================-->
         <section class="donate_area">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 d-flex align-self-center">
+                    <div class="col-md-7 align-self-center">
                         <div class="donate_content ">
-                            <h2>Your donation can save <br>many lives</h2>
-                            <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence.</p>
+                            <h2>Envoyer des colis à ses proches partout dans le monde n'a jamais été aussi simple</h2>
+                            <p></p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="donation_form">
-                            <h3>How much would you like to donate?</h3>
-                            <div class="form-group">
-                                <input type='text' class="form-control" placeholder="$5"/>
-                            </div>
-                            <div class="form-group">
-                                <input type='text' class="form-control" placeholder="$5"/>
-                            </div>
-                            <div class="form-group">
-                                <input type='text' class="form-control" placeholder="$5"/>
-                            </div>
-                            <div class="form-group">
-                                <input type='text' class="form-control" placeholder="Any"/>
-                            </div>
-                            <a href="#" class="btn_hover btn_hover_two">Donate Now</a>
-                        </div>
+                    <div class="col-md-5">
+                        <img src="images/colis-prendre.png" class="img-responsive">
                     </div>
                 </div>
             </div>
@@ -355,44 +327,32 @@
         <section class="event_blog_area section_gap">
             <div class="container">
                 <div class="section_title text-center">
-                    <h2>Upcoming Events</h2>
-                    <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast</p>
+                    <h2>Trajets les plus populaires</h2>
+                    
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="event_post">
-                            <img src="image/blog1.jpg" alt="">
-                            <a href="#"><h2 class="event_title">Spreading Peace to world</h2></a>
+                            <img src="image/paris.jpg" alt="image paris">
+                            <a href="#"><h2 class="event_title">Douala - Paris</h2></a>
                             <ul class="list_style sermons_category event_category">
-                                <li><i class="lnr lnr-user"></i>Saturday, 5th may, 2018</li>
-                                <li><i class="lnr lnr-apartment"></i>Rocky beach Church</li>
-                                <li><i class="lnr lnr-location"></i>Santa monica, Los Angeles, USA</li>
                             </ul>
-                            <a href="#" class="btn_hover">View Details</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="event_post">
-                            <img src="image/blog2.jpg" alt="">
-                            <a href="#"><h2 class="event_title">Spread Happyness to world</h2></a>
+                            <img src="image/bruxelles.jpg" alt="image brussels">
+                            <a href="#"><h2 class="event_title">Bruxelles - Yaoundé</h2></a>
                             <ul class="list_style sermons_category event_category">
-                                <li><i class="lnr lnr-user"></i>Saturday, 5th may, 2018</li>
-                                <li><i class="lnr lnr-apartment"></i>Rocky beach Church</li>
-                                <li><i class="lnr lnr-location"></i>Santa monica, Los Angeles, USA</li>
                             </ul>
-                            <a href="#" class="btn_hover">View Details</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="event_post">
-                            <img src="image/blog3.jpg" alt="">
-                            <a href="#"><h2 class="event_title">Spreading Light to world</h2></a>
+                            <img src="image/bamako.jpg" alt="image bamako">
+                            <a href="#"><h2 class="event_title">New York - Bamako</h2></a>
                             <ul class="list_style sermons_category event_category">
-                                <li><i class="lnr lnr-user"></i>Saturday, 5th may, 2018</li>
-                                <li><i class="lnr lnr-apartment"></i>Rocky beach Church</li>
-                                <li><i class="lnr lnr-location"></i>Santa monica, Los Angeles, USA</li>
                             </ul>
-                            <a href="#" class="btn_hover">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -407,41 +367,34 @@
                 <div class="row">
                     <div class="col-lg-3  col-md-6 col-sm-6">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title">About Agency</h6>
-                            <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point </p>
+                            <h6 class="footer_title">A propos de Kuvaago</h6>
+                            <p>Créée en 2014, Kuvaago est une plateforme révolutionnaire permettant l'envoi de colis entre particuliers 
+                            àmoindre coût. Il rapproche les gens et les rapprochent de plus en plus chaque jour.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title">Navigation Links</h6>
+                            <h6 class="footer_title">Navigation</h6>
                             <div class="row">
-                                <div class="col-4">
+                                <div class="col-12">
                                     <ul class="list_style">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">Feature</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Comment ça marche ?</a></li>
+                                        <li><a href="#">Conditions d'utilisation</a></li>
+                                        <li><a href="#">Foire aux questions</a></li>
+                                        <li><a href="#">Mentions légales</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-4">
-                                    <ul class="list_style">
-                                        <li><a href="#">Team</a></li>
-                                        <li><a href="#">Pricing</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>										
                             </div>							
                         </div>
                     </div>							
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title">Newsletter</h6>
-                            <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>		
+                            <h6 class="footer_title">Recevez des alertes</h6>
+                            <p>Souscrivez à notre newsletter pour être averti par mail à chaque fois qu'une annonce est effectuée sur le site.</p>		
                             <div id="mc_embed_signup">
                                 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
                                     <div class="input-group d-flex flex-row">
-                                        <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                        <input name="EMAIL" placeholder="Adresse email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
                                         <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>		
                                     </div>									
                                     <div class="mt-10 info"></div>
@@ -451,25 +404,27 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget instafeed">
-                            <h6 class="footer_title">InstaFeed</h6>
-                            <ul class="list_style instafeed d-flex flex-wrap">
-                                <li><img src="image/instagram/Image-01.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-02.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-03.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-04.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-05.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-06.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-07.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-08.jpg" alt=""></li>
+                            <h6 class="footer_title">Contactez nous</h6>
+                            <ul class="list_style">
+                                <li>Email : contact@kuvaago.com</li>
+                                <li>Phone : (+32)564276342</li>
+                                <li>Adresse : Anvers, Belgique</li>
                             </ul>
+                            <br>
+                            <a href="#" class="btn btn_hover flat-control text-light">Poser une question</a>
                         </div>
                     </div>						
                 </div>
                 <div class="border_line"></div>
                 <div class="row footer-bottom d-flex justify-content-between align-items-center">
                     <p class="col-lg-8 col-sm-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+						Copyright &copy;
+						<script>
+							document.write(new Date().getFullYear());
+						</script> 
+						Tous droits reservés | Conçu et développé avec <i class="fa fa-heart-o" aria-hidden="true"></i> par <a href="https://mboageek.com" target="_blank">MboaGeek</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
                     <div class="col-lg-4 col-sm-4 footer-social">
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
@@ -498,3 +453,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/custom.js"></script>
     </body>
 </html>
+
+
+
